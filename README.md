@@ -1,6 +1,6 @@
 # 이펙티브 타입스크립트 꼬부기 소통 🐢💬
 
-<img src="https://image.yes24.com/goods/102124327/XL" width="50%" alt="책 표지" />
+<img src="https://github.com/prgrms-web-devcourse/FEDC4-TypeScript-Kkobugi-Study/assets/97094709/88ddc91f-b84b-4cac-aa29-8eef374d98f1" width="50%" alt="책 표지" />
 
 ## 🐢 스터디 멤버
 

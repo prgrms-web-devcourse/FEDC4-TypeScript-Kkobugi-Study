@@ -1,9 +1,13 @@
 name: quiz_template
 description: 이번 주 주제에 해당하는 퀴즈를 작성해주세요.
 title: "[<n>장]: [<장 제목>]"
-labels: []
+labels: ["quiz"]
 body:
   - type: markdown
+    attributes:
+      value: |
+        이번 장에 해당하는 퀴즈를 작성해주세요.
+  - type: textarea
     id: quiz
     attributes:
       label: 퀴즈
@@ -11,7 +15,7 @@ body:
       placeholder: 예) 다음 코드에서 타입 체크 결과를 예측해보세요.
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: answer
     attributes:
       label: 답

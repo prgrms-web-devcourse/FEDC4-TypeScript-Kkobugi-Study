@@ -33,10 +33,9 @@ body:
     attributes:
       value: |
         (다음과 같이 답을 작성해 댓글로 달아주세요)
-        <details>
-        <summary>정답</summary>
-        <div markdown="1">    
+        &lt;details&gt;
+        &lt;summary&gt;정답&lt;/summary&gt;
+        &lt;div markdown="1"&gt;    
         정답 설명
-        </div>
-        </details>
-        `
+        &lt;/div&gt;
+        &lt;/details&gt;

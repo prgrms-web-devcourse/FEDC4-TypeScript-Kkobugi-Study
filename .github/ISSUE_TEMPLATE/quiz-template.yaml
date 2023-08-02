@@ -20,7 +20,7 @@ body:
     attributes:
       label: 답
       description: 문제의 답을 작성해주세요.
-      default: >
+      description: >
         <details>
         <summary>퀴즈 정답</summary>
         <div markdown="1">    

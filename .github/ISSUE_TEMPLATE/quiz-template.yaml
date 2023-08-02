@@ -29,11 +29,12 @@ body:
         &lt;/details&gt;
     validations:
       required: true
-    - type: markdown
-      attributes:
-        value: `다음과 같이 답을 작성해 댓글로 달아주세요. 
+  - type: markdown
+    attributes:
+      value: |
+        (다음과 같이 답을 작성해 댓글로 달아주세요)
         <details>
-        <summary>퀴즈 정답</summary>
+        <summary>정답</summary>
         <div markdown="1">    
         정답 설명
         </div>

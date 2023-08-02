@@ -18,8 +18,7 @@ body:
   - type: textarea
     id: answer
     attributes:
-      label: 답
-      description: 문제의 답을 작성해주세요.
+      label: 답 (아래 예시를 참고하여 답을 작성해주세요)
       description: |
         &lt;details&gt;
         &lt;summary&gt;퀴즈 정답&lt;/summary&gt;

@@ -1,6 +1,6 @@
 name: quiz_template
 description: 이번 주 주제에 해당하는 퀴즈를 작성해주세요.
-title: "[<n>장]: [<장 제목>]"
+title: "[<n>장]: <장 제목>"
 labels: ["quiz"]
 body:
   - type: markdown

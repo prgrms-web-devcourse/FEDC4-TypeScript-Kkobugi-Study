@@ -1,0 +1,27 @@
+name: quiz_template
+description: 이번 주 주제에 해당하는 퀴즈를 작성해주세요.
+title: "[<n>장]: [<장 제목>]"
+labels: []
+body:
+  - type: markdown
+    id: quiz
+    attributes:
+      label: 퀴즈
+      description: 문제의 질문을 작성해주세요.
+      placeholder: 예) 다음 코드에서 타입 체크 결과를 예측해보세요.
+    validations:
+      required: true
+  - type: markdown
+    id: answer
+    attributes:
+      label: 답
+      description: 문제의 답을 작성해주세요.
+      default: >
+        <details>
+        <summary>퀴즈 정답</summary>
+        <div markdown="1">    
+        정답 설명
+        </div>
+        </details>
+    validations:
+      required: true

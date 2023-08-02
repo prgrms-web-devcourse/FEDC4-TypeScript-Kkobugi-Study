@@ -29,8 +29,11 @@ body:
         &lt;/details&gt;
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: description
     attributes:
+      label: 댓글 작성법
+      description: 아래 내용을 수정하지 말고 이슈를 생성해주세요.
       value: |
         (다음과 같이 답을 작성해 댓글로 달아주세요)
         &lt;details&gt;

@@ -20,12 +20,12 @@ body:
     attributes:
       label: 답
       value: |
-        <details>;
-        <summary>;정답</summary>;
-        <div markdown="1">;    
+        <details>
+        <summary>정답</summary>
+        <div markdown="1">    
         정답 설명
-        </div>;
-        </details>;
+        </div>
+        </details>
     validations:
       required: true
   - type: textarea
